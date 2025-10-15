@@ -9,17 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: '#0A192F',
-        teal: '#00A99D',
-        yellow: '#FFD100',
-        grey: {
-          DEFAULT: '#A0AEC0',
-          light: '#F7FAFC',
-          dark: '#2D3748',
-        },
+        // Your Premium Dark Theme Colors
+        navy: '#0f172a', // A deep, rich navy blue
+        teal: '#2dd4bf', // A bright, modern teal for headlines
+        yellow: '#facc15', // A vibrant yellow for buttons and accents
+        'light-slate': '#cbd5e1', // For subtext
+        'dark-slate': '#1e293b', // For card backgrounds
       },
     },
   },
   plugins: [],
 };
 export default config;
+
